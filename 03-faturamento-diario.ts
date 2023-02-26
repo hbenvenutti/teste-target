@@ -1,6 +1,7 @@
 import { monthIncome } from "./faturamento.ts";
+// import com extensão .ts porque usei deno para rodar o código.
 
-function calc(): void{
+function main(): void{
   let smallestIncome = Infinity;
   let biggestIncome = 0;
   
@@ -32,4 +33,4 @@ function calc(): void{
 
 }
 
-calc();
+main();
